@@ -1,0 +1,48 @@
+maths      LD         DS         DS/A1A2    MP/A3A4    LD/A1A2    
+MP         DS/A3A4    MP/A1A2    DS         COA        maths      maths      
+---        ---        ---        COA        LD         DS         MP         
+maths      DS         COA        DS/A3A4    MP/A1A2    LD         
+maths      DS/A1A2    MP/A3A4    maths      MP         COA        ---        
+maths      LD/A3A4    LD         maths      
+
+
+---        LD         maths      MP         COA        ---        ---        
+---        COA        MP         DS         maths      LD/B1B2    
+LD         MP         DS         DS/B3B4    MP/B1B2    maths      maths      
+maths      MP         COA        maths      LD         DS/B1B2    MP/B3B4    
+maths      DS         LD         DS/B3B4    MP/B1B2    LD/B3B4    
+maths      DS         COA        DS/B1B2    MP/B3B4    
+
+
+---        DC         JP         DM         OS         UNIX/A1A2  
+---        ---        ---        USP        DC         DBM/A3A4   Jav/A1A2   
+---        DM         JP         USP        OS         DBM/A3A4   Jav/A1A2   
+DC         DBM/A1A2   Jav/A3A4   OS         USP        JP         DM         
+---        OS         DM         USP        JP         DBM/A1A2   Jav/A3A4   
+---        ---        DC         UNIX/A3A4  
+
+
+OS         DBM/B3B4   Jav/B1B2   JP         USP        DBM/B1B2   Jav/B3B4   
+---        OS         JP         DBM/B3B4   Jav/B1B2   DM         DC         
+USP        DC         JP         DM         OS         UNIX/B3B4  
+---        DC         DM         JP         USP        ---        ---        
+---        ---        ---        USP        DC         UNIX/B1B2  
+---        DBM/B1B2   Jav/B3B4   DM         OS         
+
+
+---        ---        ---        IE         IE         ---        ---        
+---        c#/A1A2    Ent        c#         c#/A3A4    
+---        c#/A3A4    IE         MA         Cry        c#         
+---        c#/A1A2    Cry        MA         Ent        ---        
+---        ---        Ent        Cry        MA         c#         ---        
+c#         MA         IE         Cry        ---        
+
+
+---        c#/B3B4    IE         IE         c#         Ent        
+---        ---        ---        ---        ---        ---        ---        
+---        c#/B3B4    IE         MIS        DM         c#         
+---        Ent        c#         DM         MIS        c#/B1B2    
+---        c#/B1B2    DM         MIS        c#         ---        
+Ent        MIS        IE         DM         ---        
+
+

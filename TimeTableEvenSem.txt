@@ -1,0 +1,48 @@
+---        TFoC       maths      UP         OOP        Alg/A1A2   OP/A3A4    
+TFoC       Alg/A1A2   OP/A3A4    Alg        UP         maths      maths      
+---        ---        TFoC       OOP        maths      Alg/A3A4   OP/A1A2    
+maths      TFoC       OOP        maths      Alg        UNIX/A1A2  
+maths      Alg/A3A4   OP/A1A2    UP         Alg        OOP        ---        
+maths      Alg        UP         UNIX/A3A4  
+
+
+UP         Alg/B1B2   OP/B3B4    Alg        TFoC       maths      maths      
+TFoC       OOP        maths      Alg        ---        ---        ---        
+OOP        Alg/B3B4   OP/B1B2    maths      Alg        UNIX/B1B2  
+maths      TFoC       OOP        Alg/B3B4   OP/B1B2    UP         ---        
+maths      UP         TFoC       maths      OOP        UNIX/B3B4  
+maths      UP         Alg        Alg/B1B2   OP/B3B4    
+
+
+Pro        WP         Net        OM         ---        ---        ---        
+---        SE         CC         WP         Net        Net/A3A4   WP/A1A2    
+SE         WP         OM         Net/A1A2   WP/A3A4    ---        ---        
+---        Net        WP         CC         Pro        ---        ---        
+SE         Pro        CC         Net        OM         Net/A3A4   WP/A1A2    
+---        Net/A1A2   WP/A3A4    CC         OM         
+
+
+---        OM         Net        Net/B3B4   WP/B1B2    Pro        
+---        Pro        ADS        Net/B1B2   WP/B3B4    OM         Net        
+---        WP         SE         ---        ---        ---        ---        
+WP         Net/B3B4   WP/B1B2    ADS        SE         ---        ---        
+---        OM         ADS        Net/B1B2   WP/B3B4    Net        SE         
+OM         WP         Pro        ADS        Net        
+
+
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        CL         CL         IE         IE         SAN        SAN        
+CL         IE         IE         SAN        ---        
+
+
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        ---        ---        ---        ---        ---        ---        
+---        CL         CL         IE         IE         SAN        SAN        
+CL         IE         IE         SAN        SAN        
+
+
