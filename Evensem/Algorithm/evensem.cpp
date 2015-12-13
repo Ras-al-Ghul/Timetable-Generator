@@ -1,4 +1,4 @@
-#include "C:\Users\admin\Desktop\Timetable Gen\Evensem\Inputs\get_inputs.h"
+#include "../Inputs/get_inputs.h"
 #include "genetic.h"
 #include "CODE.h"
 
