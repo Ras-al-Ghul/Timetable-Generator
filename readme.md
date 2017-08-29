@@ -2,11 +2,11 @@
 This automated college timetable generator generates a timetable (schedule of classes) for all batches (across semesters) belonging to a department of a college.
 This project was aimed at creating a timetable generator which automates timetable generation for our college.
 
-###To execute:
+### To execute:
 - Run the `timetable.sh` for Linux or run `timetable.bat` for Windows.
 - Follow the prompts. 
 
-###Format for inputs:
+### Format for inputs:
 Currently there is no UI for entering inputs.
 
 - Open `get_inputs.h` in the `Inputs` directory of the respective `Oddsem`/`Evensem` directory.
@@ -31,14 +31,14 @@ Functions like this can be added to handle constraints of this kind.
     (temppair->second).first.first="Batch1";(temppair->second).first.second="Batch2";` `(temppair->second).second.first=Day of week;(temppair->second).second.second=Hour of day;`
     `labhardcode->pb(temppair);`
 
-###Outputs:
+### Outputs:
 The raw output will be displayed on the terminal.
 To view the formatted output (done by `CODE.h`) open the file `TimeTableEvenSem.txt` (or `TimeTableOddSem.txt`) which gets created in the project root directory. The output will satisfy all the constraints imposed.
 
-###Classes:
+### Classes:
 The various classes are `Course`, `Section`, `Lab`, `Batch`, `Professor` and `Semester`.
 
-###Notes:
+### Notes:
 Some of the references that we used are:
 
 - [http://www.codeproject.com/Articles/23111/Making-a-Class-Schedule-Using-a-Genetic-Algorithm](http://www.codeproject.com/Articles/23111/Making-a-Class-Schedule-Using-a-Genetic-Algorithm)
@@ -56,7 +56,7 @@ Some soft constraints which were taken care of include, the classes of a particu
 
 Oddsem are semesters 1,3,5 and 7 while Evensem are semesters 2,4,6 and 8. They have been separately handled as they exhibit a slight difference in their set of constraints.
 
-###Working:
+### Working:
 - Initially, an empty vector is created which consists of all the slots of all the semesters across a week.
 - All the hard inputs are then filled in.
 - The lab slots are then assigned randomly but following a set of heuristics and constraint satisfaction is ensured after evaluation of the generated schedule.
